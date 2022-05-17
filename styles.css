@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    /* background-color: #87a4ba; */
+    font-family: 'Abril Fatface', cursive;
+    font-size: 16px;
+    background-image: url(./nnnoise.svg);
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+.summary,
+.testimonial,
+.photos,
+.meetup {
+    margin: 4em auto;
+}
+
+
+/* BAR */
+
+.bar {
+    padding-top: 1rem;
+    /* background-color: #babbf6; */
+    color: #d6b7ee;
+}
+
+.bar a {
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    color: #d6b7ee;
+    margin-right: 1.5rem;
+    font-size: 1.375rem;
+}
+
+#footer {
+    background-color: #bad0e5;
+}
+
+
+/* INTRO */
+
+.intro {
+    height: 30rem;
+    padding-top: 1rem;
+    background-position: center;
+}
+
+.intro h1 {
+    text-align: center;
+    color: #ffe4ec;
+    background-color: rgb(156, 141, 144);
+    padding: 2rem;
+    margin-top: 10rem;
+    font-size: 2rem;
+}
+
+
+/* SUMMARY */
+
+.summary {
+    padding: 0 2rem;
+}
+
+.summary h2 {
+    color: rgb(128, 128, 71);
+}
+
+
+/* PHOTOS */
+
+.photos img {
+    width: 30%;
+    margin: 1.5%;
+    height: 250px;
+}
+
+
+/* TESTIMONIALS */
+
+.testimonial {
+    color: rgb(128, 128, 71);
+    background-color: #bad0e5;
+    height: 15rem;
+    padding: 0 1rem;
+    padding-top: 1rem;
+}
+
+.testimonial h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+/* MEETUP */
+
+.meetup {
+    margin-bottom: 2rem;
+}
+
+.meetup h1 {
+    text-align: center;
+}
+
+.meetup img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
